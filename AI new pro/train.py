@@ -55,7 +55,7 @@ class chatDataset(dataset):
         self.n_samples = len(x_train)
         self.x_data  = x_train
         self.y_data = y_train
-
+#this is best 
 
     def __getitem__(self,index):
         return self.x_data[index],self.y_data[index]
