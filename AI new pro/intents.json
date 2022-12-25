@@ -23,6 +23,34 @@
             "responses":["Fine.","Perfect.","Cool.",
                 "Like You.","Are you Fine? I'm Fine."
             ]
+        },
+        {
+            "tag":"QUESTION",
+            "patterns":["what is ","what is your name","kon tha","who is"
+            ],
+            "responses":["i am a AI . my name is paradox. made by anshu verma "
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what the time ","time","whats the time","what is time"
+            ],
+            "responses":["time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is date","date","whats the date","what is date "
+            ],
+            "responses":["date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is day","day","whats the day","what is day "
+            ],
+            "responses":["day"
+            ]
         }
     ]
 }
